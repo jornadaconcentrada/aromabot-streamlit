@@ -10,7 +10,7 @@ import streamlit as st
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # 📄 Nome exato do seu PDF (esse arquivo deve estar no repositório)
-PDF_PATH = "essentiallife.pdf"
+PDF_PATH = "essentiallife.pdf.pdf"
 
 # 🚀 Carrega o chatbot baseado no PDF
 chatbot = carregar_chatbot(PDF_PATH)
