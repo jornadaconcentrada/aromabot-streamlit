@@ -8,6 +8,7 @@ import os
 
 # Função que lê o PDF
 def extrair_texto_pdf(caminho_pdf):
+    st.write("Prévia do texto:", texto[:1000])
     texto = ""
     doc = fitz.open(caminho_pdf)
     for pagina in doc:
